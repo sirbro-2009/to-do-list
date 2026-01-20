@@ -1,0 +1,67 @@
+body{
+    font-family: 'Lalezar';
+    background-color: #ebb079;
+}
+.theBar{
+background: color-mix(in srgb, rgb(142, 82, 4) 50%, transparent 50%);
+padding: 10px;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.theBar >textarea{
+    border-radius: 25px;
+    border: 1px solid transparent;
+    height: 50px;
+    padding: 10px;
+    font-family: 'Lalezar';
+    font-size: 25px;
+    width: 200px;
+}
+.theBar >button{
+    color: blanchedalmond;
+    background-color: #82562C;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 30px;
+    transition: all 1s ease
+}
+.theBar >button:hover{
+    transform: scale(1.1);
+}
+#theThink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: bisque;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 25px;
+
+}
+#theThink >h1{
+color: rgb(138, 86, 18);
+}
+#theThink >button{
+    color: blanchedalmond;
+    background-color: #ff0000;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 30px;
+    transition: all 1s ease
+}
+#theThink >button:hover{
+    transform: scale(1.1);
+}
+footer{
+    margin-top: 100%;
+    text-align: center;
+    color: #e3954c;
+    background: color-mix(in srgb, rgb(34, 19, 0) 50%, transparent 50%);
+    border-radius: 25px;
+
+}
